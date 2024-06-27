@@ -1,0 +1,55 @@
+{
+  "name": "@react-ref/ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "build:dev": "tsc --build --watch",
+    "build:storybook": "storybook build",
+    "test:storybook": "test-storybook",
+    "dev:storybook": "storybook dev -p 6006"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.24.1",
+    "@chromatic-com/storybook": "^1.3.3",
+    "@expo/vector-icons": "^13.0.0",
+    "@storybook/addon-essentials": "^8.0.9",
+    "@storybook/addon-interactions": "^8.0.9",
+    "@storybook/addon-links": "^8.0.9",
+    "@storybook/addon-onboarding": "^8.0.9",
+    "@storybook/blocks": "^8.0.9",
+    "@storybook/manager-api": "^8.0.9",
+    "@storybook/react": "^8.0.9",
+    "@storybook/react-webpack5": "^8.0.9",
+    "@storybook/test": "^8.0.9",
+    "@storybook/test-runner": "^0.17.0",
+    "@storybook/theming": "^8.0.9",
+    "@types/feather-icons": "^4.29.4",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "babel-loader": "^9.1.3",
+    "babel-preset-expo": "^10.0.2",
+    "expo": "^50.0.17",
+    "react": "^18.2.0",
+    "react-docgen-typescript": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-native-web": "^0.19.11",
+    "storybook": "^8.0.9",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^5.0.18",
+    "@tanstack/react-query": "^5.32.0",
+    "date-fns": "^3.6.0",
+    "feather-icons": "^4.29.1",
+    "react-native-safe-area-context": "^4.10.1",
+    "styled-components": "^6.1.8"
+  }
+}

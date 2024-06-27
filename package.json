@@ -1,0 +1,33 @@
+{
+  "name": "@react-ref/repo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:storybook": "turbo build:storybook",
+    "build:web": "turbo build:web",
+    "dev:pkgs": "tsc --build --watch",
+    "dev:storybook": "turbo dev:storybook",
+    "dev:app": "turbo dev:app",
+    "dev:ios": "turbo dev:ios",
+    "dev:android": "turbo dev:android",
+    "dev:web": "turbo dev:web",
+    "test": "pnpm run test:prettier && pnpm run test:eslint && turbo test",
+    "test:prettier": "prettier packages/*/src",
+    "test:eslint": "eslint packages/*/src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "resolutions": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.73.6"
+  },
+  "devDependencies": {
+    "@vercel/style-guide": "^6.0.0",
+    "turbo": "^1.13.2",
+    "typescript": "^5.4.5"
+  }
+}
